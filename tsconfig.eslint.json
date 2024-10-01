@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "vite.config.ts",
+    "StoryTemplate/index.ts",
+    "StoryTemplate/YourComponentName.types.ts",
+    "StoryTemplate/YourComponentName.stories.ts" // add this line
+  ]
+}
